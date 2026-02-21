@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Базы данных
+*.db
+*.db-journal
+*.sqlite3
+backup_*.db
+
+# Логи
+*.log
+bot.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Дистрибутивы
+dist/
+build/
+*.egg-info/
